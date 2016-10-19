@@ -1,0 +1,182 @@
+/*Typical*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1rem;
+}
+
+body {
+  background-color: #dfdfdf;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  min-width: 600px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float:right;
+}
+
+/*navbar*/
+
+.navbar {
+  display: block;
+  height: 100%;
+  width: 4rem;
+  background-color: #2a2a2a;
+  overflow: auto;
+  padding: 1rem;
+  position: fixed;
+}
+
+.navicon {
+  height: 4rem;
+  width: 4rem;
+  display: block;
+}
+
+.navboxicon {
+  height: auto;
+  width: auto;
+  margin: 0;
+  vertical-align: top;
+}
+
+.navbox, .navlogo {
+  height: 8rem;
+  width: 4rem;
+  float: left;
+  color: #bdbdbd;
+  box-sizing: border-box;
+}
+
+.navlogo {
+  height: 4rem;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbox:hover {
+  background-color: #bdbdbd;
+  color: #2a2a2a;
+}
+
+.navtext {
+  height: auto;
+  width: auto;
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.5rem;
+  position: relative;
+  top: 5rem;
+  left: 3.75rem;
+  transform: rotate(270deg);
+  transform-origin: 0% 100%;
+  -ms-transform: rotate(270deg);
+  -ms-transform-origin: 0% 100%;
+  -webkit-transform: rotate(270deg);
+  -webkit-transform-origin: 0% 100%;
+}
+
+/*main content*/
+
+.content {
+  height: auto;
+  width: auto;
+  margin-left: 7rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.content p {
+  margin-bottom: 1.25rem;
+}
+
+.portrait {
+  width: 16rem;
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+  transform:scale(-1,1);
+  -webkit-transform:scale(-1,1);
+  -moz-transform:scale(-1,1);
+  -o-transform:scale(-1,1);
+  filter: contrast(0.8);
+  -webkit-filter: contrast(0.8);
+}
+
+/*contact form*/
+
+.contactdiv {
+  height: auto;
+  width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  overflow: auto;
+}
+
+.contact {
+  clear: both;
+  width: 100%;
+  min-width: 400px;
+  margin-bottom: 0.5rem;
+}
+
+.contact label, .message label {
+  display: inline-block;
+  width: 8rem;
+  text-align: left;
+}
+
+.message {
+  clear: both;
+  height: auto;
+  width: 100%;
+  min-width: 400px;
+  margin-bottom: 0.5rem;
+  overflow: auto;
+}
+
+.smalltxtfm {
+  height: auto;
+  width: calc(100% - 8.25rem);
+  float: right;
+}
+
+.largetxtfm {
+  height: 6rem;
+  width: calc(100% - 8.25rem);
+  float: right;
+}
+
+/*footer*/
+
+.footer {
+  height: auto;
+  width: 100%;
+  margin: 1.5rem 1rem 1rem 1rem;
+  clear: both;
+}
+
+.footer p {
+  text-align: center;
+}
+
+/*Coded by Mark Mihara*/
